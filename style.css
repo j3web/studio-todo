@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
 body {
-    font-family: Georgia, serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    background: #1a1a2e;
-    color: #eee;
+    background-color: black;
+    color: white;
     line-height: 1.6;
 }
 
@@ -15,15 +19,18 @@ header {
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #e94560;
     font-size: 2.5rem;
 }
 
-.montserrat-heading {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
 
 main {
@@ -35,4 +42,16 @@ footer {
     padding: 2rem 0;
     color: #888;
     font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    header {
+        padding: 1rem 0;
+    }
 }
