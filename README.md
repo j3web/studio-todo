@@ -1,4 +1,4 @@
-
+Revamp in Process -October 2026
 This readme file provides a brief overview of the file and folder structure
 included in the default MontageJS project directory.
 
