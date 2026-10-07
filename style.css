@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #1a1a2e;
+    color: #eee;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #e94560;
+}
+
+h1 {
+    color: #e94560;
+    font-size: 2.5rem;
+}
+
+.montserrat-heading {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #888;
+    font-size: 0.9rem;
+}
